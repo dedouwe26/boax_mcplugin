@@ -9,8 +9,9 @@ public class Boax extends JavaPlugin {
 
 	@Override
 	public void onEnable() {
-
         getServer().getPluginManager().registerEvents(new Events(), this);
+        
+		getLogger().info("[Boax] started succesfull");
 	}
 	
     @Override
