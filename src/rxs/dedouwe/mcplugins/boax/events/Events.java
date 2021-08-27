@@ -10,6 +10,8 @@ public class Events implements Listener {
 	
 	@EventHandler
 	public void onJoin(PlayerJoinEvent event) {
+		event.getPlayer().sendMessage(ChatColor.RED + "[Boax] Please install the resource pack!");
+		event.getPlayer().setResourcePack("https://dedouwe.nl/content/minecraft/resource/boax-pack.zip");
 	}
 
 }
