@@ -1,0 +1,8 @@
+main: rxs.dedouwe.mcplugins.boax.Boax
+name: boax
+version: 1.0.0
+author: de_douwe
+api-version: 1.17
+
+commands:
+        
